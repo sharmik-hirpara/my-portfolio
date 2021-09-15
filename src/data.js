@@ -1,40 +1,43 @@
 import { IoLogoJavascript, IoLogoHtml5 } from 'react-icons/io';
 import { IoLogoReact } from 'react-icons/io5';
 import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
+// import snakeAndLadderGame from './images/SnakeAndLadderGame.png';
+import searchWordFromTextFile from './images/SearchWordFromTextFile.png';
+import fitnessWebApplication from './images/FitnessWebApplication.png';
 
 export const projects = [
+    // {
+    //   title: "Snake and Ledder Game",
+    //   subtitle: "Java",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    //   image: snakeAndLadderGame,
+    //   link: "https://reactbootcamp.com",
+    // },
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Search a word from a text file",
+      subtitle: "Java object oriented programming and JavaFX",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "This Java application allows user to load any text file from their local system and search for the words from it",
+      image: searchWordFromTextFile,
+      link: "https://github.com/sharmik-hirpara/Search-keyword-from-text-file",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Fitness Web Application",
+      subtitle: "HTML5, CSS3, PHP, and MySQL",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
+        "This website allows user to sign up for fitness club. The database holds the user credentials.",
+      image: fitnessWebApplication,
       link: "https://jsbootcamp.com",
     },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
+    // {
+    //   title: "Epic Todo App",
+    //   subtitle: "React Hooks",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    //   image: "./project-4.gif",
+    //   link: "https://pythonbootcamp.com",
+    // },
   ];
   
   export const testimonials = [
