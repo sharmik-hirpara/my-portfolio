@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bf9697f0.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.c420662e.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.c420662e.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.1b50205f.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.1b50205f.js.map",
-    "static/js/2.232328ee.chunk.js": "/my-portfolio/static/js/2.232328ee.chunk.js",
-    "static/js/2.232328ee.chunk.js.map": "/my-portfolio/static/js/2.232328ee.chunk.js.map",
-    "static/js/3.563e2a18.chunk.js": "/my-portfolio/static/js/3.563e2a18.chunk.js",
-    "static/js/3.563e2a18.chunk.js.map": "/my-portfolio/static/js/3.563e2a18.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.557f0f60.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.4e631ea5.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.4e631ea5.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.c04f6a30.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.c04f6a30.js.map",
+    "static/js/2.4fc7b5a6.chunk.js": "/my-portfolio/static/js/2.4fc7b5a6.chunk.js",
+    "static/js/2.4fc7b5a6.chunk.js.map": "/my-portfolio/static/js/2.4fc7b5a6.chunk.js.map",
+    "static/js/3.00fc6834.chunk.js": "/my-portfolio/static/js/3.00fc6834.chunk.js",
+    "static/js/3.00fc6834.chunk.js.map": "/my-portfolio/static/js/3.00fc6834.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.bf9697f0.chunk.css.map": "/my-portfolio/static/css/main.bf9697f0.chunk.css.map",
-    "static/js/2.232328ee.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.232328ee.chunk.js.LICENSE.txt",
+    "static/css/main.557f0f60.chunk.css.map": "/my-portfolio/static/css/main.557f0f60.chunk.css.map",
+    "static/js/2.4fc7b5a6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.4fc7b5a6.chunk.js.LICENSE.txt",
     "static/media/FitnessWebApplication.5079fcbf.png": "/my-portfolio/static/media/FitnessWebApplication.5079fcbf.png",
     "static/media/Profile picture.1685fb17.jpg": "/my-portfolio/static/media/Profile picture.1685fb17.jpg",
+    "static/media/Pronunciation.61782e44.mp3": "/my-portfolio/static/media/Pronunciation.61782e44.mp3",
     "static/media/SearchWordFromTextFile.a82cb195.png": "/my-portfolio/static/media/SearchWordFromTextFile.a82cb195.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b50205f.js",
-    "static/js/2.232328ee.chunk.js",
-    "static/css/main.bf9697f0.chunk.css",
-    "static/js/main.c420662e.chunk.js"
+    "static/js/runtime-main.c04f6a30.js",
+    "static/js/2.4fc7b5a6.chunk.js",
+    "static/css/main.557f0f60.chunk.css",
+    "static/js/main.4e631ea5.chunk.js"
   ]
 }
