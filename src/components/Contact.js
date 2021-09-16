@@ -25,8 +25,9 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      {/* <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap"> */}
+      <div className="container px-5 py-10 mx-auto flex justify-center">
+        {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
@@ -61,17 +62,17 @@ export default function Contact() {
               <p className="leading-relaxed">0452-512-791</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          className="lg:w-2/4 flex flex-col md:auto w-full">
+          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-center">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
-            Please shoot a message if you want to discuss further and I will get back to you as soon as possible.
+          <p className="leading-relaxed mb-5 text-center">
+            I am more than happy to get my hands dirty on a complex tasks, so hit me up with your message if you want to discuss further and I will get back to you as soon as possible.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
