@@ -1,9 +1,9 @@
 import { IoLogoJavascript, IoLogoHtml5 } from 'react-icons/io';
 import { IoLogoReact } from 'react-icons/io5';
 import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
-// import snakeAndLadderGame from './assests/SnakeAndLadderGame.png';
-import searchWordFromTextFile from './assests/SearchWordFromTextFile.png';
-import fitnessWebApplication from './assests/FitnessWebApplication.png';
+// import snakeAndLadderGame from './assets/SnakeAndLadderGame.png';
+import searchWordFromTextFile from './assets/SearchWordFromTextFile.png';
+import fitnessWebApplication from './assets/FitnessWebApplication.png';
 
 export const projects = [
     // {
