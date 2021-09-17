@@ -15,7 +15,6 @@ export default function Footer() {
           },
         });
         let result = await response.json();
-        // console.log(result);
         setQuote(result.content);
         setAuthor(result.author);
     };

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 export default function Contact() {
+
   const [status, setStatus] = useState("Submit");
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
