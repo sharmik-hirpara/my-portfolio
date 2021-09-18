@@ -13,7 +13,7 @@ export default function Contact() {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://3.26.56.65:5000", {
+    let response = await fetch("https://3.26.56.65:5000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
