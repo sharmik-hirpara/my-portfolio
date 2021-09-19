@@ -1,28 +1,26 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
+const creds = require('../config.js');
 
 export default function Contact() {
 
-  const [status, setStatus] = useState("Submit");
-  
+  const [sending, setSending] = useState(false);
+
+  const SERVICE_ID = creds.SERVICE_ID;
+  const TEMPLATE_ID = creds.TEMPLATE_ID;
+  const USER_ID = creds.USER_ID;
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("https://3.26.56.65:5000", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
+    setSending(true);
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+      setSending(false);
+    e.target.reset()
   };
 
   return (
@@ -77,24 +75,24 @@ export default function Contact() {
             I am more than happy to get my hands dirty on a complex tasks, so hit me up with your message if you want to discuss further and I will get back to you as soon as possible.
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="from_name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
               type="text"
-              id="name"
-              name="name"
+              id="from_name"
+              name="from_name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="from_email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
             <input
               type="email"
-              id="email"
-              name="email"
+              id="from_email"
+              name="from_email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -113,8 +111,9 @@ export default function Contact() {
           <div className="flex justify-center">
             <button
               type="submit"
+              disabled={sending}
               className="flex-inline text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg display: inline-block">
-              Submit
+              {sending ? "Sending..." : "Send"}
             </button>
           </div>
         </form>
