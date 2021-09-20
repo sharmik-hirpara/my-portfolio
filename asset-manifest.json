@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d8b62443.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.99d88760.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.99d88760.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.15816b5c.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.15816b5c.js.map",
-    "static/js/2.bb69f57d.chunk.js": "/my-portfolio/static/js/2.bb69f57d.chunk.js",
-    "static/js/2.bb69f57d.chunk.js.map": "/my-portfolio/static/js/2.bb69f57d.chunk.js.map",
-    "static/js/3.62fba17d.chunk.js": "/my-portfolio/static/js/3.62fba17d.chunk.js",
-    "static/js/3.62fba17d.chunk.js.map": "/my-portfolio/static/js/3.62fba17d.chunk.js.map",
-    "static/js/4.da441334.chunk.js": "/my-portfolio/static/js/4.da441334.chunk.js",
-    "static/js/4.da441334.chunk.js.map": "/my-portfolio/static/js/4.da441334.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.d8e26fa8.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.e82fcf46.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.e82fcf46.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.bf18980c.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.bf18980c.js.map",
+    "static/css/2.3176c027.chunk.css": "/my-portfolio/static/css/2.3176c027.chunk.css",
+    "static/js/2.726971c4.chunk.js": "/my-portfolio/static/js/2.726971c4.chunk.js",
+    "static/js/2.726971c4.chunk.js.map": "/my-portfolio/static/js/2.726971c4.chunk.js.map",
+    "static/js/3.59acf55b.chunk.js": "/my-portfolio/static/js/3.59acf55b.chunk.js",
+    "static/js/3.59acf55b.chunk.js.map": "/my-portfolio/static/js/3.59acf55b.chunk.js.map",
+    "static/js/4.ffbef8ab.chunk.js": "/my-portfolio/static/js/4.ffbef8ab.chunk.js",
+    "static/js/4.ffbef8ab.chunk.js.map": "/my-portfolio/static/js/4.ffbef8ab.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.d8b62443.chunk.css.map": "/my-portfolio/static/css/main.d8b62443.chunk.css.map",
-    "static/js/2.bb69f57d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.bb69f57d.chunk.js.LICENSE.txt",
-    "static/js/3.62fba17d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/3.62fba17d.chunk.js.LICENSE.txt",
+    "static/css/2.3176c027.chunk.css.map": "/my-portfolio/static/css/2.3176c027.chunk.css.map",
+    "static/css/main.d8e26fa8.chunk.css.map": "/my-portfolio/static/css/main.d8e26fa8.chunk.css.map",
+    "static/js/2.726971c4.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.726971c4.chunk.js.LICENSE.txt",
+    "static/js/3.59acf55b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/3.59acf55b.chunk.js.LICENSE.txt",
     "static/media/FitnessWebApplication.5079fcbf.png": "/my-portfolio/static/media/FitnessWebApplication.5079fcbf.png",
     "static/media/Profile picture.2b37bca7.jpg": "/my-portfolio/static/media/Profile picture.2b37bca7.jpg",
     "static/media/Pronunciation.f19cdf6b.mp3": "/my-portfolio/static/media/Pronunciation.f19cdf6b.mp3",
     "static/media/Resume - Sharmik Hirpara.84d53b82.pdf": "/my-portfolio/static/media/Resume - Sharmik Hirpara.84d53b82.pdf",
-    "static/media/SearchWordFromTextFile.a82cb195.png": "/my-portfolio/static/media/SearchWordFromTextFile.a82cb195.png"
+    "static/media/SearchWordFromTextFile.a82cb195.png": "/my-portfolio/static/media/SearchWordFromTextFile.a82cb195.png",
+    "static/media/notifications.css": "/my-portfolio/static/media/notification.c5d9251e.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.15816b5c.js",
-    "static/js/2.bb69f57d.chunk.js",
-    "static/css/main.d8b62443.chunk.css",
-    "static/js/main.99d88760.chunk.js"
+    "static/js/runtime-main.bf18980c.js",
+    "static/css/2.3176c027.chunk.css",
+    "static/js/2.726971c4.chunk.js",
+    "static/css/main.d8e26fa8.chunk.css",
+    "static/js/main.e82fcf46.chunk.js"
   ]
 }
