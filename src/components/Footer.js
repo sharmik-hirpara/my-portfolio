@@ -24,7 +24,7 @@ export default function Footer() {
     }, []);
 
   return (
-    <header className="bg-gray-800 md:sticky bottom-0 z-10">
+    <footer className="bg-gray-800 md:sticky bottom-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-gray-400">
         <nav className="md:mr-auto md:ml-1 md:py-1 md:pl-0 flex flex-1 items-center justify-left">
           <p className="mr-5 text-white">
@@ -46,6 +46,6 @@ export default function Footer() {
           <IoLogoLinkedin className="w-7 h-7" size="100" />
         </a>
       </div>
-    </header>
+    </footer>
   );
 }
