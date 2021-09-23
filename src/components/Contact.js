@@ -8,21 +8,24 @@ export default function Contact() {
 
   const recaptchaKey = '6LfFGnwcAAAAACi8FPnV-VMw3KSK4jCBa1Xr2nIF';
   const recaptchaRef = useRef();
-  const SERVICE_ID = process.env.SERVICE_ID;
-  const TEMPLATE_ID = process.env.TEMPLATE_ID;
-  const USER_ID = process.env.USER_ID;
+  const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+  const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+  const USER_ID = process.env.REACT_APP_USER_ID;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-        NotificationManager.success('', 'Message sent');
-      }, (error) => {
-        NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
-          alert('callback');
-          window.location = "mailto:sharmik.hirpara@gmail.com";
-        });
-      });
+    console.log(SERVICE_ID);
+    console.log(TEMPLATE_ID);
+    console.log(USER_ID);
+    // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    //   .then((result) => {
+    //     NotificationManager.success('', 'Message sent');
+    //   }, (error) => {
+    //     NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
+    //       alert('callback');
+    //       window.location = "mailto:sharmik.hirpara@gmail.com";
+    //     });
+    //   });
     e.target.reset();
     recaptchaRef.current.reset();
   };
