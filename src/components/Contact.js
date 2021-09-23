@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
@@ -13,11 +13,10 @@ export default function Contact() {
   const SERVICE_ID = creds.SERVICE_ID;
   const TEMPLATE_ID = creds.TEMPLATE_ID;
   const USER_ID = creds.USER_ID;
-  
-  const [recaptchaToken, setReCaptchaToken] = useState();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(e.target)
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
         NotificationManager.success('', 'Message sent');
@@ -31,15 +30,11 @@ export default function Contact() {
     recaptchaRef.current.reset();
   };
 
-  const updateRecaptchaToken = (token) => {
-    setReCaptchaToken(token);
-  };
-
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex justify-center">       
         <form
-          netlify
+          netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-2/4 flex flex-col md:auto w-full">
@@ -87,7 +82,6 @@ export default function Contact() {
             className="flex justify-center mb-4"
             ref={recaptchaRef}
             sitekey={recaptchaKey}
-            onChange={updateRecaptchaToken}
           />
           <div className="flex justify-center">
             <button
