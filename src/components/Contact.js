@@ -3,31 +3,26 @@ import emailjs from "emailjs-com";
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import ReCAPTCHA from 'react-google-recaptcha';
-// const creds = require('../config.js');
 
 export default function Contact() {
 
   const recaptchaKey = '6LfFGnwcAAAAACi8FPnV-VMw3KSK4jCBa1Xr2nIF';
   const recaptchaRef = useRef();
-  // const SERVICE_ID = process.env.SERVICE_ID;
-  // const TEMPLATE_ID = process.env.TEMPLATE_ID;
-  // const USER_ID = process.env.USER_ID;
-  console.log(process.env.REACT_APP_SERVICE_ID);
-  console.log(process.env.REACT_APP_TEMPLATE_ID);
-  console.log(process.env.REACT_APP_USER_ID);
+  const SERVICE_ID = process.env.SERVICE_ID;
+  const TEMPLATE_ID = process.env.TEMPLATE_ID;
+  const USER_ID = process.env.USER_ID;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(e.target)
-    // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-    //   .then((result) => {
-    //     NotificationManager.success('', 'Message sent');
-    //   }, (error) => {
-    //     NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
-    //       alert('callback');
-    //       window.location = "mailto:sharmik.hirpara@gmail.com";
-    //     });
-    //   });
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        NotificationManager.success('', 'Message sent');
+      }, (error) => {
+        NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
+          alert('callback');
+          window.location = "mailto:sharmik.hirpara@gmail.com";
+        });
+      });
     e.target.reset();
     recaptchaRef.current.reset();
   };
