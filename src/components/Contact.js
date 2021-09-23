@@ -6,7 +6,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function Contact() {
 
-  const recaptchaKey = '6LfFGnwcAAAAACi8FPnV-VMw3KSK4jCBa1Xr2nIF';
+  const recaptchaKey = process.env.REACT_APP_RECAPTCHA_KEY;
   const recaptchaRef = useRef();
   const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
   const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
@@ -14,9 +14,6 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(SERVICE_ID);
-    // console.log(TEMPLATE_ID);
-    // console.log(USER_ID);
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
         NotificationManager.success('', 'Message sent');
