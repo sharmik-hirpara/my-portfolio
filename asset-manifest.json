@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.e7f450e9.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.548d977f.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.548d977f.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.809485ed.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.809485ed.js.map",
+    "main.js": "/my-portfolio/static/js/main.ba387585.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ba387585.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.11d496f3.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.11d496f3.js.map",
     "static/css/2.3176c027.chunk.css": "/my-portfolio/static/css/2.3176c027.chunk.css",
-    "static/js/2.5c13b7f6.chunk.js": "/my-portfolio/static/js/2.5c13b7f6.chunk.js",
-    "static/js/2.5c13b7f6.chunk.js.map": "/my-portfolio/static/js/2.5c13b7f6.chunk.js.map",
-    "static/js/3.8ceb94c7.chunk.js": "/my-portfolio/static/js/3.8ceb94c7.chunk.js",
-    "static/js/3.8ceb94c7.chunk.js.map": "/my-portfolio/static/js/3.8ceb94c7.chunk.js.map",
+    "static/js/2.48c1f18f.chunk.js": "/my-portfolio/static/js/2.48c1f18f.chunk.js",
+    "static/js/2.48c1f18f.chunk.js.map": "/my-portfolio/static/js/2.48c1f18f.chunk.js.map",
+    "static/js/3.40b42caf.chunk.js": "/my-portfolio/static/js/3.40b42caf.chunk.js",
+    "static/js/3.40b42caf.chunk.js.map": "/my-portfolio/static/js/3.40b42caf.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.3176c027.chunk.css.map": "/my-portfolio/static/css/2.3176c027.chunk.css.map",
     "static/css/main.e7f450e9.chunk.css.map": "/my-portfolio/static/css/main.e7f450e9.chunk.css.map",
-    "static/js/2.5c13b7f6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5c13b7f6.chunk.js.LICENSE.txt",
+    "static/js/2.48c1f18f.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.48c1f18f.chunk.js.LICENSE.txt",
     "static/media/FitnessWebApplication.5079fcbf.png": "/my-portfolio/static/media/FitnessWebApplication.5079fcbf.png",
     "static/media/Profile picture.2b37bca7.jpg": "/my-portfolio/static/media/Profile picture.2b37bca7.jpg",
     "static/media/Pronunciation.f19cdf6b.mp3": "/my-portfolio/static/media/Pronunciation.f19cdf6b.mp3",
@@ -22,10 +22,10 @@
     "static/media/notifications.css": "/my-portfolio/static/media/notification.c5d9251e.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.809485ed.js",
+    "static/js/runtime-main.11d496f3.js",
     "static/css/2.3176c027.chunk.css",
-    "static/js/2.5c13b7f6.chunk.js",
+    "static/js/2.48c1f18f.chunk.js",
     "static/css/main.e7f450e9.chunk.css",
-    "static/js/main.548d977f.chunk.js"
+    "static/js/main.ba387585.chunk.js"
   ]
 }
