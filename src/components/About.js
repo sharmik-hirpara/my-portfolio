@@ -32,8 +32,8 @@ export default function About() {
           in the IT field.
           <br /> <br />
           The portfolio, which is opened on your screen, is designed by the same boy after 15 years. Yes, I followed my dreams and my goals. I have 
-          pursued Masters in Information Technology from a Swinburne University of Technology. With 3-months of experience as a full stack developer 
-          in hand, I started working on my portfolio using ReactJS. This portfolio will take you into my IT journey til date. 
+          pursued Masters in Information Technology from a Swinburne University of Technology. With 3-months of experience as a web developer in hand, 
+          I started working on my portfolio using ReactJS and Tailwind CSS. This portfolio will take you into my IT journey til date. 
           </p>
           <div className="flex justify-center">
             <a
