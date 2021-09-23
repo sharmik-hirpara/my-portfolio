@@ -14,18 +14,18 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(SERVICE_ID);
-    console.log(TEMPLATE_ID);
-    console.log(USER_ID);
-    // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-    //   .then((result) => {
-    //     NotificationManager.success('', 'Message sent');
-    //   }, (error) => {
-    //     NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
-    //       alert('callback');
-    //       window.location = "mailto:sharmik.hirpara@gmail.com";
-    //     });
-    //   });
+    // console.log(SERVICE_ID);
+    // console.log(TEMPLATE_ID);
+    // console.log(USER_ID);
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        NotificationManager.success('', 'Message sent');
+      }, (error) => {
+        NotificationManager.error('Click here!', 'Something went wrong!', 5000, () => {
+          alert('callback');
+          window.location = "mailto:sharmik.hirpara@gmail.com";
+        });
+      });
     e.target.reset();
     recaptchaRef.current.reset();
   };
