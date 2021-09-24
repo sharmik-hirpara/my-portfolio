@@ -8,7 +8,7 @@ export default function Footer() {
     const [author, setAuthor] = useState("");
     
     const generateQuote = async () => {
-        let response = await fetch("https://api.quotable.io/random", {
+        let response = await fetch("https://api.quotable.io/random?tags=technology", {
           method: "GET",
           headers: {
             "Content-Type": "application/json;charset=utf-8",
