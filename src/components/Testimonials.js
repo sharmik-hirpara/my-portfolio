@@ -15,15 +15,15 @@ export default function Testimonials() {
         <div className="flex flex-wrap m-4">
           {testimonials.map((testimonial) => (
             <div key={testimonial.name} className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                <HiTerminal className="block w-8 text-gray-500 mb-4" size={36}/>
+              <div className="h-full bg-gray-800 p-8 rounded">
+                <HiTerminal className="block w-8 text-green-400 mb-4" size={36}/>
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white text-lg">
                       {testimonial.name}
                     </span>
-                    <span className="text-gray-500 text-xs uppercase">
+                    <span className="text-green-400 text-xs uppercase">
                       {testimonial.position}
                     </span>
                   </span>
