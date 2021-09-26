@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7f450e9.chunk.css",
-    "main.js": "/static/js/main.7ecea314.chunk.js",
-    "main.js.map": "/static/js/main.7ecea314.chunk.js.map",
+    "main.css": "/static/css/main.a7c7b0bb.chunk.css",
+    "main.js": "/static/js/main.30665b36.chunk.js",
+    "main.js.map": "/static/js/main.30665b36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c16aa0b3.js",
     "runtime-main.js.map": "/static/js/runtime-main.c16aa0b3.js.map",
     "static/css/2.c59b9ff7.chunk.css": "/static/css/2.c59b9ff7.chunk.css",
-    "static/js/2.9238aca6.chunk.js": "/static/js/2.9238aca6.chunk.js",
-    "static/js/2.9238aca6.chunk.js.map": "/static/js/2.9238aca6.chunk.js.map",
+    "static/js/2.a27e9f37.chunk.js": "/static/js/2.a27e9f37.chunk.js",
+    "static/js/2.a27e9f37.chunk.js.map": "/static/js/2.a27e9f37.chunk.js.map",
     "static/js/3.40b42caf.chunk.js": "/static/js/3.40b42caf.chunk.js",
     "static/js/3.40b42caf.chunk.js.map": "/static/js/3.40b42caf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c59b9ff7.chunk.css.map": "/static/css/2.c59b9ff7.chunk.css.map",
-    "static/css/main.e7f450e9.chunk.css.map": "/static/css/main.e7f450e9.chunk.css.map",
-    "static/js/2.9238aca6.chunk.js.LICENSE.txt": "/static/js/2.9238aca6.chunk.js.LICENSE.txt",
+    "static/css/main.a7c7b0bb.chunk.css.map": "/static/css/main.a7c7b0bb.chunk.css.map",
+    "static/js/2.a27e9f37.chunk.js.LICENSE.txt": "/static/js/2.a27e9f37.chunk.js.LICENSE.txt",
     "static/media/FitnessWebApplication.5079fcbf.png": "/static/media/FitnessWebApplication.5079fcbf.png",
-    "static/media/Profile picture.2b37bca7.jpg": "/static/media/Profile picture.2b37bca7.jpg",
+    "static/media/Profile picture.943c130f.jpg": "/static/media/Profile picture.943c130f.jpg",
     "static/media/Pronunciation.f19cdf6b.mp3": "/static/media/Pronunciation.f19cdf6b.mp3",
     "static/media/Resume - Sharmik Hirpara.84d53b82.pdf": "/static/media/Resume - Sharmik Hirpara.84d53b82.pdf",
     "static/media/SearchWordFromTextFile.a82cb195.png": "/static/media/SearchWordFromTextFile.a82cb195.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.c16aa0b3.js",
     "static/css/2.c59b9ff7.chunk.css",
-    "static/js/2.9238aca6.chunk.js",
-    "static/css/main.e7f450e9.chunk.css",
-    "static/js/main.7ecea314.chunk.js"
+    "static/js/2.a27e9f37.chunk.js",
+    "static/css/main.a7c7b0bb.chunk.css",
+    "static/js/main.30665b36.chunk.js"
   ]
 }
