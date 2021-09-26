@@ -12,8 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            It’s time to see some work. Here are few projects, pitch work and design explorations I’ve done so far. 
-            Not everything but a sneak peek before I pull together some case studies.
+            It’s time to see some work. Here are few projects, pitch work and design explorations I’ve done so far.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -29,6 +28,8 @@ export default function Projects() {
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
+                  width="auto"
+                  height="auto"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
