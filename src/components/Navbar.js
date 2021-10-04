@@ -7,11 +7,11 @@ import Resume from "./../assets/Resume - Sharmik Hirpara.pdf";
 export default function Navbar() {
 
   const saveFile = () => {
-    alert("Work in progress...")
-    // saveAs(
-    //   Resume,
-    //   "Resume - Sharmik Hirpara.pdf"
-    // );
+    // alert("Work in progress...")
+    saveAs(
+      Resume,
+      "Resume - Sharmik Hirpara.pdf"
+    );
   };
 
   return (
