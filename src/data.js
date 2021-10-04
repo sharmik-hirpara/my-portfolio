@@ -28,7 +28,7 @@ export const projects = [
       description:
         "This website allows user to sign up for fitness club. The database holds the user credentials.",
       image: fitnessWebApplication,
-      link: "https://jsbootcamp.com",
+      link: "https://github.com/sharmik-hirpara/fitness-centre-web-application",
     },
     // {
     //   title: "Epic Todo App",
