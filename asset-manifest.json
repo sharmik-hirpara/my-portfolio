@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7c7b0bb.chunk.css",
-    "main.js": "/static/js/main.30665b36.chunk.js",
-    "main.js.map": "/static/js/main.30665b36.chunk.js.map",
+    "main.css": "/static/css/main.9e484dc7.chunk.css",
+    "main.js": "/static/js/main.561261ab.chunk.js",
+    "main.js.map": "/static/js/main.561261ab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c16aa0b3.js",
     "runtime-main.js.map": "/static/js/runtime-main.c16aa0b3.js.map",
     "static/css/2.c59b9ff7.chunk.css": "/static/css/2.c59b9ff7.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.40b42caf.chunk.js.map": "/static/js/3.40b42caf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c59b9ff7.chunk.css.map": "/static/css/2.c59b9ff7.chunk.css.map",
-    "static/css/main.a7c7b0bb.chunk.css.map": "/static/css/main.a7c7b0bb.chunk.css.map",
+    "static/css/main.9e484dc7.chunk.css.map": "/static/css/main.9e484dc7.chunk.css.map",
     "static/js/2.a27e9f37.chunk.js.LICENSE.txt": "/static/js/2.a27e9f37.chunk.js.LICENSE.txt",
     "static/media/FitnessWebApplication.5079fcbf.png": "/static/media/FitnessWebApplication.5079fcbf.png",
     "static/media/Profile picture.943c130f.jpg": "/static/media/Profile picture.943c130f.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.c16aa0b3.js",
     "static/css/2.c59b9ff7.chunk.css",
     "static/js/2.a27e9f37.chunk.js",
-    "static/css/main.a7c7b0bb.chunk.css",
-    "static/js/main.30665b36.chunk.js"
+    "static/css/main.9e484dc7.chunk.css",
+    "static/js/main.561261ab.chunk.js"
   ]
 }
