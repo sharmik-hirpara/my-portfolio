@@ -19,7 +19,7 @@ export default function Testimonials() {
                 <HiTerminal className="block w-8 text-green-400 mb-4" size={36}/>
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
-                  <span className="flex-grow flex flex-col pl-4">
+                  <span className="flex-grow flex flex-col">
                     <span className="title-font font-medium text-white text-lg">
                       {testimonial.name}
                     </span>

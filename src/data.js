@@ -4,6 +4,7 @@ import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
 // import snakeAndLadderGame from './assets/SnakeAndLadderGame.png';
 import searchWordFromTextFile from './assets/SearchWordFromTextFile.png';
 import fitnessWebApplication from './assets/FitnessWebApplication.png';
+import findNextPalindromeNumber from './assets/FindNextPalindromeNumber.png'
 
 export const projects = [
     // {
@@ -15,10 +16,10 @@ export const projects = [
     //   link: "https://reactbootcamp.com",
     // },
     {
-      title: "Search a word from a text file",
+      title: "Word search engine",
       subtitle: "Java object oriented programming and JavaFX",
       description:
-        "This Java application allows user to load any text file from their local system and search for the words from it",
+        "A Java application which allows users to load any text file from their local system and search for the words from it. User have 4 different search method options to perform the search operation.",
       image: searchWordFromTextFile,
       link: "https://github.com/sharmik-hirpara/Search-keyword-from-text-file",
     },
@@ -26,18 +27,18 @@ export const projects = [
       title: "Fitness Web Application",
       subtitle: "HTML5, CSS3, PHP, and MySQL",
       description:
-        "This website allows user to sign up for fitness club. The database holds the user credentials.",
+        "This website allows user to sign up for a membership in fitness club. The database holds the user details. Admins can review membership details stored in the database and modify it if required.",
       image: fitnessWebApplication,
       link: "https://github.com/sharmik-hirpara/fitness-centre-web-application",
     },
-    // {
-    //   title: "Epic Todo App",
-    //   subtitle: "React Hooks",
-    //   description:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    //   image: "./project-4.gif",
-    //   link: "https://pythonbootcamp.com",
-    // },
+    {
+      title: "Find Next Palindrome Number",
+      subtitle: "Maven Project",
+      description:
+        "This application has built using Maven. It allows user to enter any positive integer value and finds the next palindrome number which comes after that.",
+      image: findNextPalindromeNumber,
+      link: "https://github.com/sharmik-hirpara/FindPalindromeNumberMaven",
+    },
   ];
   
   export const testimonials = [
