@@ -1,10 +1,10 @@
-import { IoLogoJavascript, IoLogoHtml5 } from 'react-icons/io';
+import { IoLogoJavascript, IoLogoHtml5, IoLogoWordpress } from 'react-icons/io';
 import { IoLogoReact } from 'react-icons/io5';
 import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
 // import snakeAndLadderGame from './assets/SnakeAndLadderGame.png';
 import searchWordFromTextFile from './assets/SearchWordFromTextFile.png';
 import fitnessWebApplication from './assets/FitnessWebApplication.png';
-import findNextPalindromeNumber from './assets/FindNextPalindromeNumber.png'
+import findNextPalindromeNumber from './assets/FindNextPalindromeNumber.png';
 
 export const projects = [
     // {
@@ -81,5 +81,9 @@ export const projects = [
     {
       name: "Java",
       icon: SiJava,
+    },
+    {
+      name: "WordPress",
+      icon: IoLogoWordpress,
     }
   ];
