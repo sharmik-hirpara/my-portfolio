@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f169f51c.chunk.css",
-    "main.js": "/static/js/main.66190f82.chunk.js",
-    "main.js.map": "/static/js/main.66190f82.chunk.js.map",
+    "main.js": "/static/js/main.263dc17f.chunk.js",
+    "main.js.map": "/static/js/main.263dc17f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c16aa0b3.js",
     "runtime-main.js.map": "/static/js/runtime-main.c16aa0b3.js.map",
     "static/css/2.c59b9ff7.chunk.css": "/static/css/2.c59b9ff7.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/Pronunciation.f19cdf6b.mp3": "/static/media/Pronunciation.f19cdf6b.mp3",
     "static/media/Resume - Sharmik Hirpara.0b2e5f72.pdf": "/static/media/Resume - Sharmik Hirpara.0b2e5f72.pdf",
     "static/media/SearchWordFromTextFile.a82cb195.png": "/static/media/SearchWordFromTextFile.a82cb195.png",
+    "static/media/WordPressPortfolio.39560fb3.png": "/static/media/WordPressPortfolio.39560fb3.png",
     "static/media/notifications.css": "/static/media/notification.c5d9251e.ttf"
   },
   "entrypoints": [
@@ -27,6 +28,6 @@
     "static/css/2.c59b9ff7.chunk.css",
     "static/js/2.9c8e0b44.chunk.js",
     "static/css/main.f169f51c.chunk.css",
-    "static/js/main.66190f82.chunk.js"
+    "static/js/main.263dc17f.chunk.js"
   ]
 }
