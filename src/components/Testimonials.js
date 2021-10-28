@@ -17,7 +17,7 @@ export default function Testimonials() {
             <div key={testimonial.name} className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 p-8 rounded">
                 <HiTerminal className="block w-8 text-green-400 mb-4" size={36}/>
-                <p className="leading-relaxed mb-6">{testimonial.quote}</p>
+                <p className="leading-relaxed mb-6 text-justify">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <span className="flex-grow flex flex-col">
                     <span className="title-font font-medium text-white text-lg">

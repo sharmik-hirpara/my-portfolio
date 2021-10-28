@@ -5,6 +5,7 @@ import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
 import searchWordFromTextFile from './assets/SearchWordFromTextFile.png';
 import fitnessWebApplication from './assets/FitnessWebApplication.png';
 import findNextPalindromeNumber from './assets/FindNextPalindromeNumber.png';
+import wordPressPortfolio from './assets/WordPressPortfolio.png';
 
 export const projects = [
     // {
@@ -38,6 +39,14 @@ export const projects = [
         "This application has built using Maven. It allows user to enter any positive integer value and finds the next palindrome number which comes after that.",
       image: findNextPalindromeNumber,
       link: "https://github.com/sharmik-hirpara/FindPalindromeNumberMaven",
+    },
+    {
+      title: "ePortfolio",
+      subtitle: "WordPress",
+      description:
+        "This is the another version of my ePortfolio using WordPress.",
+      image: wordPressPortfolio,
+      link: "https://github.com/sharmik-hirpara/Wordpress-ePortfolio",
     },
   ];
   
