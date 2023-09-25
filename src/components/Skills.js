@@ -12,8 +12,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I am disciplined, enthusiastic and quick learner <strong> Software Developer </strong> with 3-months work experience as 
-            a full stack developer with following skills... 
+            I am disciplined, enthusiastic and quick learner <strong> Software Developer </strong> with 2-years work experience as 
+            a developer with following skills... 
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

@@ -1,6 +1,6 @@
 import { IoLogoJavascript, IoLogoHtml5, IoLogoWordpress } from 'react-icons/io';
 import { IoLogoReact } from 'react-icons/io5';
-import { SiPhp, SiMysql, SiJava } from 'react-icons/si';
+import { SiPhp, SiMysql, SiJava, SiCsharp } from 'react-icons/si';
 // import snakeAndLadderGame from './assets/SnakeAndLadderGame.png';
 import searchWordFromTextFile from './assets/SearchWordFromTextFile.png';
 import fitnessWebApplication from './assets/FitnessWebApplication.png';
@@ -65,7 +65,6 @@ export const projects = [
     },
   ];
   
-  
   export const skills = [
     {
       name: "JavaScript",
@@ -94,5 +93,57 @@ export const projects = [
     {
       name: "WordPress",
       icon: IoLogoWordpress,
+    },
+    {
+      name: "C#",
+      icon: SiCsharp,
+    }
+  ];
+
+  export const experience = [
+    {
+      companyName: "TAL",
+      position: "Developer",
+      duration: "Feb 2022 - Present",
+      responsibilities: ([
+        "Developing reliable, usable software using C#, .Net framework, and SQL scripts, which meets business requirements within the required timeframes while minimising technical debt.",
+        "Maintaining systems, processes, and documentation to deliver administrative processes and procedures effectively.",
+        "Identify straightforward technical problems and find resolutions or refer problems as necessary.",
+        "Involved in UAT testing, release planning, software releases and post release tasks.",
+        "Delivering small administrative projects or the administration of larger projects so that all information is kept up to date and coordinated on behalf of the project team."
+      ])
+    },
+    {
+      companyName: "Freelance",
+      position: "Web Developer",
+      duration: "Apr 2021 – Mar 2022",
+      responsibilities: ([
+        "Updated, modified, and extended existing websites.",
+        "Wrote clean, testable good quality websites using PHP, JavaScript, ReactJS, and WordPress.",
+        "Collaborated with the clients and other stakeholders to build efficient and reliable features.",
+        "Tech enthusiastic keen to learn new tools, technologies, and frameworks."
+      ])
+    },
+    {
+      companyName: "Australian Computer Society",
+      position: "Software Developer Intern",
+      duration: "Apr 2021 – Jul 2021",
+      responsibilities: ([
+        "Wrote and maintained Java, and XML code to meet system requirements, system designs and technical specifications in accordance with quality accredited standards.",
+        "Researched, consulted, analysed, and evaluated system program needs.",
+        "Performed documentation support functions.",
+        "Managed and coordinated Chatbot application team of 10 to discuss progress, team activities and agree on plans for the coming fortnight."
+      ])
+    },
+    {
+      companyName: "Entrust ICT",
+      position: "Web Developer Intern",
+      duration: "Aug 2019 – Oct 2019",
+      responsibilities: ([
+        "Wrote clean, well designed, efficient code using to best web development practices.",
+        "Achieved project goal accurately and efficiently by applying data management skills while refactoring database.",
+        "Designed and created the new website layout and user interfaces with standard PHP and JavaScript practices.",
+        "Sharpened ownership and responsibility by reporting project progress and status to the supervisors using Trello."
+      ])
     }
   ];

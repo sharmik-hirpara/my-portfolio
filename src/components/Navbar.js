@@ -21,8 +21,11 @@ export default function Navbar() {
             Sharmik Hirpara
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-2 md:border-l md:border-gray-700	flex flex-wrap items-center justify-center">
+          <a href="#experience" className="ml-2 mr-2 hover:text-white text-center">
+            Experience
+          </a>
           <a href="#projects" className="ml-2 mr-2 hover:text-white text-center">
-            Past Work
+            Projects
           </a>
           <a href="#skills" className="ml-2 mr-2 hover:text-white">
             Skills
@@ -46,49 +49,6 @@ export default function Navbar() {
           </a>
         </nav>
       </div>
-
-        {/* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-gray-400">
-        <nav>
-          <ul className="flex flex-wrap items-center justify-center">
-            <li>
-              <a href="#about" className=" inline-block title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl md:pb-1">
-                  Sharmik Hirpara
-              </a>
-            </li>
-            
-            <li className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700"	>
-              <a href="#projects" className="mr-5 hover:text-white">
-                Past Work
-              </a>
-            </li>
-            <li>
-              <a href="#skills" className="mr-5 hover:text-white">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="mr-5 hover:text-white">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <button className="mr-5 hover:text-white" onClick={saveFile}>
-                Resume
-              </button>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className="inline-flex text-white items-center bg-green-700 border-0 py-1 px-3 focus:outline-none hover:bg-green-600 rounded mt-4 md:mt-0">
-                Hire Me
-                <HiArrowRight className="w-4 h-4 ml-1 mt-0.5" />
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div> */}
-
-
     </header>
   );
 }
