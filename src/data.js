@@ -104,7 +104,7 @@ export const projects = [
     {
       companyName: "TAL",
       position: "Developer",
-      duration: "Feb 2022 - Present",
+      duration: "Feb 2022 - Nov 2023",
       responsibilities: ([
         "Developing reliable, usable software using C#, .Net framework, and SQL scripts, which meets business requirements within the required timeframes while minimising technical debt.",
         "Maintaining systems, processes, and documentation to deliver administrative processes and procedures effectively.",
