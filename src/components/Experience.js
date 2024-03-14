@@ -19,18 +19,22 @@ export default function Experience() {
           
           <div className="grid grid-cols-4 gap-4 text-white">
             {experience.map((xp) => (
-              <Fragment>
-                <div className="text-left text-xl col-span-3">{xp.companyName} - {xp.position}</div>
-                <div className="text-right">{xp.duration}</div>
-                <div class="col-span-4 !visible hover:invisible ...">
-                  <ul class="list-disc ml-5 mb-5 text-justify text-gray-400">
+              <Fragment key={xp.companyName}>
+                <div className="text-left text-xl col-span-3">
+                  {xp.companyName} - {xp.position}
+                </div>
+                <div className="text-right">
+                  {xp.duration}
+                </div>
+                <div className="col-span-4">
+                  <ul className="list-disc ml-5 mb-5 text-justify text-gray-400">
                     {xp.responsibilities.map((responsibility) => (
-                      <Fragment>
-                        <li>{responsibility}</li>
-                      </Fragment>
+                      <div>
+                        <li key={responsibility.id}>{responsibility}</li>
+                      </div>
                     ))}
                   </ul>
-              </div>
+                </div>
               </Fragment>
             ))}
           </div>
