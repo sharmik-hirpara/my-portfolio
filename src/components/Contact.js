@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -10,11 +10,11 @@ export default function Contact() {
   const recaptchaRef = useRef();
   const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
   const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
-  const USER_ID = process.env.REACT_APP_USER_ID;
+  const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
       .then((result) => {
         NotificationManager.success('', 'Message sent');
       }, (error) => {
