@@ -53,6 +53,24 @@ export const projects = [
   export const testimonials = [
     {
       quote:
+        "Sharmik was onboarded as a Junior dev that had some Java experience and no C# and he's done great learning C#, SQL SERVER, and becoming productive quickly. Aside from C#, .NET Core, and SQL SERVER he's had solid exposure to RestFul APIs, Winforms, MSMQ, Azure ServiceBus, Octopus, Teamcity, Gitlab. I have no reservations about recommending him, he will pick up the technical stack quickly, he's reliable and keen with a great positive attitude and I'm certainly going to miss having him on my team.",
+      name: "Darren Sherwood",
+      position: "Software Development Manager at TAL Australia",
+    },
+    {
+      quote:
+        "As a PO, I have had the pleasure of working with Sharmik for the past 1.5 years. He is proactive, team focussed, solution orientated and most importantly completely transparent in his progress, blockers etc. which means we can be reliably transparent with our stakeholders around development progress and delivery. Sharmik will be a huge asset to his next employer and will be missed greatly by us at TAL.",
+      name: "Christian Solier",
+      position: "Product Owner at TAL Australia",
+    },
+    {
+      quote:
+        "I worked with Sharmik within TAL as one of his key stakeholders. As a change manager/business UAT owner for Lifebroker, Sharmik was my key resource to get BAU & project technology changes delivered on time. In his time at TAL, Sharmik has worked on a variety of different business initiatives and challenges, all of which he fulfilled to a high standard. He has a vibrant & positive attitude and he is effective in articulating technical terms into language that the business can understand and make informed decisions from. Sharmik is always effective at addressing the underlying problem statement raised by the business, and there has been cross-pollination of skills/knowledge across our respective areas, which this has helped foster an excellent client/vendor relationship. Sharmik leaves TAL having made unlocked benefits to the business from a commercial, risk, brand/reputation standpoint. We will miss him greatly, and I would recommend him in a heartbeat!",
+      name: "Jonathan Marshall",
+      position: "Business Readiness Manager at Lifebroker",
+    },
+    {
+      quote:
         "Sharmik was my direct Team Leader whilst at Citywide and it was an absolute pleasure to work with him. Sharmik was friendly approachable knowledgeable and had a fine attention to detail and a meticulous and professional approach with his colleagues. I highlighted a few safety issues and Sharmik was understanding and quick to take action and would accommodate his team members where possible. I would have no hesitation in recommending him for future roles to any prospective employers.",
       name: "Gavin Connell",
       position: "Environmental Maintenance Officer at Citywide Service Solutions Pty Ltd",
@@ -106,11 +124,11 @@ export const projects = [
       position: "Developer",
       duration: "Feb 2022 - Nov 2023",
       responsibilities: ([
-        "Developing reliable, usable software using C#, .Net framework, and SQL scripts, which meets business requirements within the required timeframes while minimising technical debt.",
-        "Maintaining systems, processes, and documentation to deliver administrative processes and procedures effectively.",
-        "Identify straightforward technical problems and find resolutions or refer problems as necessary.",
+        "Developed reliable, usable software using C#, .Net framework, and SQL scripts, which meets business requirements within the required timeframes while minimising technical debt.",
+        "Maintained systems, processes, and documentation to deliver administrative processes and procedures effectively.",
+        "Identifyed straightforward technical problems and found resolutions or referred problems as necessary.",
         "Involved in UAT testing, release planning, software releases and post release tasks.",
-        "Delivering small administrative projects or the administration of larger projects so that all information is kept up to date and coordinated on behalf of the project team."
+        "Delivered small administrative projects or the administration of larger projects so that all information is kept up to date and coordinated on behalf of the project team."
       ])
     },
     {
