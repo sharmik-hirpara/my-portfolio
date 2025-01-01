@@ -8,14 +8,14 @@ export default function Footer() {
     const [author, setAuthor] = useState("");
     
     const generateQuote = async () => {
-        let response = await fetch("https://api.quotable.io/random?tags=technology", {
+        let response = await fetch("https://programming-quotesapi.vercel.app/api/random", {
           method: "GET",
           headers: {
             "Content-Type": "application/json;charset=utf-8",
           },
         });
         let result = await response.json();
-        setQuote(result.content);
+        setQuote(result.quote);
         setAuthor(result.author);
     };
 
