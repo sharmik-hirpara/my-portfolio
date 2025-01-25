@@ -120,6 +120,16 @@ export const projects = [
 
   export const experience = [
     {
+      companyName: "CXC",
+      position: "Software Engineer",
+      duration: "May 2024 - Present",
+      responsibilities: ([
+        "Maintaining legacy CRM software using C#, and .Net MVC along with REST APIs, and SQL Server scripts, as per the client’s need.",
+        "Collaborating with team members to design, develop, plan UAT testing, software release and prepare the necessary document for release",
+        "Shipping small projects on time and iterating often to improve client and user experience.",
+      ])
+    },
+    {
       companyName: "TAL",
       position: "Developer",
       duration: "Feb 2022 - Nov 2023",
